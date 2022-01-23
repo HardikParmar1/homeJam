@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/homeJam/static/css/main.158bcdc8.css",
+    "main.js": "/homeJam/static/js/main.b9f28875.js",
+    "static/media/Img.png": "/homeJam/static/media/Img.316d042102338bdc3232.png",
+    "static/media/card3.png": "/homeJam/static/media/card3.7bcaead4da80d8255538.png",
+    "static/media/card4.png": "/homeJam/static/media/card4.f7a0557b7b339153f36b.png",
+    "static/media/card1.png": "/homeJam/static/media/card1.89e8ab3e6a0127131b1d.png",
+    "static/media/card2.png": "/homeJam/static/media/card2.fb8a812ee3f39f5a26d3.png",
+    "static/media/Ticket.svg": "/homeJam/static/media/Ticket.a7e0917d259925add746b654f7d6e9d9.svg",
+    "static/media/USA.svg": "/homeJam/static/media/USA.3db1cc8cd640381fad06dad314e1d3d8.svg",
+    "static/media/IT.svg": "/homeJam/static/media/IT.f5d7da30afe726d8353d6897c936b06d.svg",
+    "static/media/Basket.svg": "/homeJam/static/media/Basket.c754e8d33a9527a920fcb9def8a969cd.svg",
+    "index.html": "/homeJam/index.html",
+    "static/media/Arrow.svg": "/homeJam/static/media/Arrow.9b02a41f9509ef12ab2a00ea09e9eb9b.svg",
+    "main.158bcdc8.css.map": "/homeJam/static/css/main.158bcdc8.css.map",
+    "main.b9f28875.js.map": "/homeJam/static/js/main.b9f28875.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.158bcdc8.css",
+    "static/js/main.b9f28875.js"
+  ]
+}
