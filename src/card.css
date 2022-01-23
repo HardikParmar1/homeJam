@@ -1,0 +1,122 @@
+.card{
+  width:268px;
+  height: 387px;
+  border-radius: 8px;
+  background: #111229;
+  margin-right: 16px;
+  box-shadow: 12px -12px 0px -3px rgba(48,26,104,1);
+  position: relative;
+  top:53px;
+}
+.music-label{
+  border-radius: 1px;
+  background: #E5C558;
+  padding:2px 6px 2px 6px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 12px;
+  line-height:14px;
+  font-weight: 600;
+  position: relative;
+  left: 16px;
+  top:13px;
+}
+.artist-name{
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+  color:#FFFFFF;
+  position: relative;
+  left:16px;
+  top:23px;
+}
+.card-link{
+  text-decoration: none;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  line-height: 32px;
+  color: #0259EB;
+  position: relative;
+  top:36px;
+  left:16px;
+  height: 32px;
+  background-color: transparent;
+  border: none;
+  cursor:url("images/click1.png"),auto;
+}
+.arrow{
+  position: relative;
+  top:7px;
+  left:8px;
+  }
+hr{
+  width: 30px;
+  border-top: none;
+  transform: rotate(270deg);
+  position: relative;
+  left: 186px;
+  top:20px;
+  opacity: 10%;
+}
+.ticket{
+  position: relative;
+  left: 216px;
+  cursor:url("images/click2.png"), auto;
+}
+/* ----------------------review CARD------------------------------------- CSS */
+
+.review-card{
+  width: 360px;
+  height: 240px;
+  border-radius: 16px;
+  border: 2px solid #E5AF56;
+  background: #0A0B1A;
+  box-shadow: 12px -12px 0px -3px  #5293E8;
+  position: relative;
+  left:163px;
+  top:60px;
+  margin-right:40px;
+}
+.profile-name{
+  color:#FFFFFF;
+  font-family: 'Quattrocento', serif;
+  position: relative;
+  left:80px;
+  top:-45px;
+}
+
+.location{
+  font-family: 'Nunito', sans-serif;
+  color:#E5C558;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 16px;
+  position: relative;
+  left:80px;
+  top:-49px;
+}
+
+.location img{
+  position: relative;
+  top:8px;
+  margin-right: 8px;
+}
+
+.review{
+  color:#FFFFFF;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  position: relative;
+  top:-27.31px;
+}
+
+.review-details{
+  margin: 35.52px 24.27px;
+}
+.review-container{
+  display: flex;
+  flex-direction: row;
+}

@@ -1,38 +1,174 @@
-.App {
-  text-align: center;
+ body{
+  background-color: #0A0B1A;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+  margin: 0;
+  padding: 0;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container{
+  height: 2079px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header{
+  background: url("./images/Img.png");
+  height: 862px;
+  background-size: cover;
+  color:#FFFFFF;
+}
+h1{
+  font-family: 'Libre Baskerville', serif;
+  font-size: 80px;
+  line-height: 90px;
+  font-weight: 700;
+  position: absolute;
+  top:248px;
+  left: 150px;
+}
+.header-text{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  width: 611px;
+  opacity: .6;
+  position: absolute;
+  top:368px;
+  left: 150px;
+}
+nav{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+.nav-logo{
+  margin-left: 143px;
+  margin-top: 6px;
+}
+.nav-item{
+  display: flex;
+  list-style: none;
+  position: relative;
+  left: 830px;
+}
+.nav-link{
+  margin:15px 30px;
+}
+.nav-icon{
+position: absolute;
+top:10px;
+}
+.search-icon{
+  position: absolute;
+  top:20px;
+  left:10px;
+}
+.basket-icon{
+  position: absolute;
+  top:15px;
+  left: 322px;
+}
+/* -----------------------Circle-label-styling----------------------------------------- */
+.circle{
+  width:208px;
+  height: 208px;
+  border-radius: 50%;
+  border: 1px solid #FFFFFF;
+  display: flex;
+  flex-direction:column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  margin-right: 83px;
+  position: relative;
+  left: 199px;
+  top:-.5px;
+
+}
+.label-text{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  font-size:16px;
+  line-height: 32px;
+  text-align: center;
+  margin: 3px;
+  opacity: 0.5;
+}
+.count{
+font-family: 'Libre Baskerville', serif;;
+font-size: 24px;
+line-height: 32px;
+margin: 3px;
+}
+.label-icon{
+  margin: 3px;
+}
+.labels{
+  position: relative;
+  top:652px;
+  display: flex;
+}
+/* ---------------------------------------------------------------------------- */
+
+/* -----------------------------heading bar ----------------------------------- */
+.headingbar{
+  display:flex;
+}
+.show-headingbar{
+  display:flex;
+  position: relative;
+  top:124px;
+}
+.show-link{
+  color:#E5C558;
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 790px;
+}
+span{
+  color:#84858C;
 }
 
-.App-link {
-  color: #61dafb;
+.section-title{
+  font-family: 'Libre Baskerville', serif;
+  font-size: 32px;
+  line-height: 40px;
+  color:#FFFFFF;
+  margin-left: 161px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.review-link{
+  color:#FFFFFF;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  opacity: .5;
+  position: relative;
+  left:914px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:0 11px;
+}
+
+.shows{
+  display: flex;
+  justify-content: space-around;
+  margin:154px;
+}
+ .line{
+  background-color:#0259EB;
+  width: 48px;
+  height:3px;
+  border-radius: 16px;
+  position:relative;
+  left: -293px;
+  top:48px;
+}
+.line2{
+  background-color:#0259EB;
+  width: 48px;
+  height:3px;
+  border-radius: 16px;
+  position:relative;
+  left: -138px;
+  top:48px;
 }
